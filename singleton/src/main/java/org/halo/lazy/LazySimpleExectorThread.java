@@ -6,6 +6,7 @@ package org.halo.lazy;
  * @since jdk1.8
  */
 public class LazySimpleExectorThread implements Runnable{
+    @Override
     public void run() {
         LazySimpleSingleton simpleSingleton = LazySimpleSingleton.getInstance();
         System.out.println(Thread.currentThread().getName()+" : "+simpleSingleton);
