@@ -19,7 +19,7 @@
 ###### 4. 编译生成新的Java代码的class文件。
 ###### 5. 加载并重新运行新的class,得到类就是全新类。
 ###### ** 以上过程就叫字节码重组。JDK中有一个规范，在ClassPath下只要是$开头的class文件一般都是自动生成的。
-###### ** 将内存中对象字节码通过文件流输出到一个新的class文件，然后，利用反编译工具查看class的源代码，见: [字节码输出至class文件](http: "字节码输出至class文件")
+###### ** 将内存中对象字节码通过文件流输出到一个新的class文件，然后，利用反编译工具查看class的源代码，见: [字节码输出至class文件](https://github.com/lulu0s/design-pattern/blob/master/proxy/src/main/java/org/halo/dynamic/ByteCodeToClassTest.java "字节码输出至class文件")
 
 
 
